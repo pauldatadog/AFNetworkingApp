@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DatadogCore (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogInternal (2.20.0)
+  - DatadogLogs (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogObjc (2.20.0):
+    - DatadogCore (= 2.20.0)
+    - DatadogLogs (= 2.20.0)
+    - DatadogRUM (= 2.20.0)
+    - DatadogSessionReplay (= 2.20.0)
+    - DatadogTrace (= 2.20.0)
+  - DatadogRUM (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogSessionReplay (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogTrace (2.20.0):
+    - DatadogInternal (= 2.20.0)
+    - OpenTelemetrySwiftApi (= 1.6.0)
+  - OpenTelemetrySwiftApi (1.6.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DatadogObjc
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DatadogCore
+    - DatadogInternal
+    - DatadogLogs
+    - DatadogObjc
+    - DatadogRUM
+    - DatadogSessionReplay
+    - DatadogTrace
+    - OpenTelemetrySwiftApi
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  DatadogCore: 773e69b0cbb3fbf97176e6fc707206df6dec71d8
+  DatadogInternal: 4259244d5d3dc1acc83d1dc382d6cfdfee48869c
+  DatadogLogs: ba048171d5ad5745bfce9b78050e14cfe6361e08
+  DatadogObjc: 1b329c6cbf1b0a7bf4d92db313f724459e631c7a
+  DatadogRUM: 6d88e20d36d156131ca3174040865995685974f1
+  DatadogSessionReplay: fa5ddeb4bec0a41804c7c2536f66124a1539429a
+  DatadogTrace: 8cf281fde42f1601fa98d1e10e5ff0c82f3e4890
+  OpenTelemetrySwiftApi: 657da8071c2908caecce11548e006f779924ff9c
+
+PODFILE CHECKSUM: e4f0589e470bd1ec0b9f5eef00e6035691c2856e
+
+COCOAPODS: 1.16.2
